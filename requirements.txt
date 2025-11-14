@@ -1,0 +1,37 @@
+# CSV and Data processing
+pandas
+numpy
+
+# JSON and YAML support
+pyyaml
+
+# Filesystem and CLI tools
+tqdm
+
+# Plotting and visualization
+matplotlib
+seaborn
+
+# Jupyter notebooks (if interactive analysis is done)
+notebook
+
+# Machine Learning: Core PyTorch ecosystem
+torch>=2.0
+torchvision
+torchaudio
+
+# Scikit-learn for classical ML and metrics
+scikit-learn
+
+# For cross-platform path safety
+pathlib
+
+# PDF and Excel support (based on your files)
+openpyxl
+PyPDF2
+
+# For experiment tracking (optional but recommended)
+tensorboard
+
+# For image manipulations
+Pillow

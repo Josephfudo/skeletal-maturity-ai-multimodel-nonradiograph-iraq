@@ -1,0 +1,26 @@
+Final Weighted Ensembled Test Accuracy: 83.0000%
+Models Ensembled: 25
+TTA Rounds: 10
+
+Weights Used:
+  > resnet18: 20.58% (Raw Score: 0.736)
+  > resnet50: 20.13% (Raw Score: 0.72)
+  > densenet121: 19.85% (Raw Score: 0.71)
+  > efficientnet_b0: 20.19% (Raw Score: 0.722)
+  > vgg16: 19.24% (Raw Score: 0.688)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Pre-peak     0.8667    0.6667    0.7536        39
+        Peak     0.8750    0.9333    0.9032        30
+   Post-peak     0.7632    0.9355    0.8406        31
+
+    accuracy                         0.8300       100
+   macro avg     0.8349    0.8452    0.8325       100
+weighted avg     0.8371    0.8300    0.8255       100
+
+Confusion Matrix:
+[[26  4  9]
+ [ 2 28  0]
+ [ 2  0 29]]
